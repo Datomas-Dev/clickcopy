@@ -1,0 +1,15 @@
+{
+  "name": "clickcopy",
+  "version": "0.0.1",
+  "description": "a small application for easily copying text",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "david t",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.1.0"
+  }
+}

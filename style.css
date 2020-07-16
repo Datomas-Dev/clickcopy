@@ -1,0 +1,63 @@
+
+:root {
+    --cc-bg-color: #224;
+    --cc-text-color: #ccc;
+    --cc-selection-color: initial;
+    --cc-selection-bg: initial;
+}
+
+@keyframes {
+
+}
+
+* {
+    /* padding: 0; */
+    /* margin: 0; */
+}
+
+html {
+    background-color: var(--cc-bg-color);
+    color: var(--cc-text-color);
+}
+
+::selection {
+    color: var(--cc-selection-color);
+    background: var(--cc-selection-bg);
+}
+
+:focus {
+    outline: none;
+}
+
+
+
+textarea {
+    
+}
+
+.cc-button {
+    background-color: rgba(255,255,255,0.0);
+    border: 1px solid var(--cc-text-color);
+    border-radius: 5px;
+    color: var(--cc-text-color);
+    transition: background-color 0.2s;
+}
+
+.cc-button:hover {
+    background-color: rgba(255,255,255,0.2);
+    cursor: pointer;
+}
+
+.cc-button:active {
+    background-color: rgba(0,255,0,0.2);
+    cursor: pointer;
+    transition-duration: 0s;
+}
+
+.cc-copy {
+
+}
+
+.cc-component {
+
+}
